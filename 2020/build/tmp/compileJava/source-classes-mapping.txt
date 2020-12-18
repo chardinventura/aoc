@@ -2,5 +2,9 @@ com/chardin/aoc/day1/Challenge1.java
  com.chardin.aoc.day1.Challenge1
 com/chardin/aoc/day1/Challenge2.java
  com.chardin.aoc.day1.Challenge2
+com/chardin/aoc/day2/Challenge1.java
+ com.chardin.aoc.day2.Challenge1
+com/chardin/aoc/day2/Challenge2.java
+ com.chardin.aoc.day2.Challenge2
 com/chardin/aoc/Main.java
  com.chardin.aoc.Main
