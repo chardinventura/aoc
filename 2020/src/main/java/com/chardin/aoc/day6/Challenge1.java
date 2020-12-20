@@ -16,7 +16,7 @@ public class Challenge1{
 			if (!entries.get(i).isBlank())
 				addQuestions(groupQuestions, entries.get(i));
 
-			if (entries.get(i).isBlank() ^ (i == entries.size() - 1)) {
+			if (entries.get(i).isBlank() || (i == entries.size() - 1)) {
 
 				totalQuestions += groupQuestions.size();
 				groupQuestions.clear();
