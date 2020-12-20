@@ -14,7 +14,7 @@ public class Challenge2{
 
 		for (int i = 0; i < entries.size(); i++){
 
-			if (!entries.get(i).isBlank() && !(i == entries.size() - 1)) {
+			if (!entries.get(i).isBlank()) {
 
 				if (entries.get(i).contains(" ")){
 					if(!addFields(passports, entries.get(i).split(" ")))
@@ -23,7 +23,9 @@ public class Challenge2{
 				else
 					if(!addFields(passports, entries.get(i)))
 						continue;
-			}else{
+			}
+
+			if(entries.get(i).isBlank() || (i == entries.size() - 1)){
 
 				if (passports.size() == 8)
 					validPassports++;

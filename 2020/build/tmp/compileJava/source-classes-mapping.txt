@@ -4,8 +4,8 @@ com/chardin/aoc/day4/Challenge2.java
  com.chardin.aoc.day4.Challenge2
 com/chardin/aoc/day5/Challenge1.java
  com.chardin.aoc.day5.Challenge1
-com/chardin/aoc/day4/Challenge1.java
- com.chardin.aoc.day4.Challenge1
+com/chardin/aoc/day6/Challenge1.java
+ com.chardin.aoc.day6.Challenge1
 com/chardin/aoc/day2/Challenge2.java
  com.chardin.aoc.day2.Challenge2
 com/chardin/aoc/day3/Challenge1.java
@@ -18,5 +18,7 @@ com/chardin/aoc/day2/Challenge1.java
  com.chardin.aoc.day2.Challenge1
 com/chardin/aoc/day5/Challenge2.java
  com.chardin.aoc.day5.Challenge2
+com/chardin/aoc/day4/Challenge1.java
+ com.chardin.aoc.day4.Challenge1
 com/chardin/aoc/Main.java
  com.chardin.aoc.Main

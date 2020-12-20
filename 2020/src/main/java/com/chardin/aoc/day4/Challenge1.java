@@ -14,13 +14,15 @@ public class Challenge1{
 
 		for (int i = 0; i < entries.size(); i++){
 
-			if (!entries.get(i).isBlank() && !(i == entries.size() - 1)) {
+			if (!entries.get(i).isBlank()) {
 
 				if (entries.get(i).contains(" "))
 					addPassport(passports, entries.get(i).split(" "));
 				else
 					addPassport(passports, entries.get(i));
-			}else{
+			}
+
+			if(entries.get(i).isBlank() || (i == entries.size() - 1)){
 
 				if (passports.size() == 8)
 					validPassports++;
