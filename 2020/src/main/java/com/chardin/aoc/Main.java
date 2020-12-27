@@ -5,13 +5,13 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.util.List;
 
-import com.chardin.aoc.day6.Challenge2;
+import com.chardin.aoc.day7.Challenge2;
 
 public class Main{
 
 	public static void main(String[] args) throws IOException{
 
-		List<String> entries = Files.readAllLines(new File("src/main/resources/input6.txt").toPath());
+		List<String> entries = Files.readAllLines(new File("src/main/resources/input7.txt").toPath());
 
 		System.out.println(Challenge2.Resolver(entries));
 	}
